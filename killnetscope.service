@@ -1,0 +1,13 @@
+[Unit]
+Description=Kill Netskope Client processes
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/quit_process.sh
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
