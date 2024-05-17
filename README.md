@@ -23,8 +23,7 @@ To install the script via Homebrew, run the following commands:
 brew tap j3rry01v/killnetskoppu
 brew install quit_process
 
-
-## Managing the Service
+## Installation via Homebrew
 
 - Starting the Service
 ```bash

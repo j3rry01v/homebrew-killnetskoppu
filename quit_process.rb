@@ -1,7 +1,13 @@
 class QuitProcess < Formula
-  desc "Script to kill Netskope processes"
+
+
+  desc "Description of the Killnetskoppu tool"
   homepage "https://github.com/j3rry01v/killnetskoppu"
-  url "https://github.com/j3rry01v/killnetskoppu/raw/main/quit_process.sh"
+  url "https://github.com/j3rry01v/killnetskoppu.git"
+#   version "1.0.0"
+#   desc "Script to kill Netskope processes"
+#   homepage "https://github.com/j3rry01v/killnetskoppu"
+#   url "https://github.com/j3rry01v/killnetskoppu/raw/main/quit_process.sh"
   sha256 "fa5840080bc3c3539b99071248bd53bf69ec0ee441dc5abc71b793f799755627"
   version "1.0.0"
 
